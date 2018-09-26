@@ -92,7 +92,7 @@ namespace ConsoleApp5
             if (second_double != 0)
             {
                 double double_result = first_double / second_double;
-                Console.WriteLine();
+                Console.WriteLine(double_result);
                 Console.ReadKey();
             }
             else
