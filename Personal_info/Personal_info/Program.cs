@@ -53,7 +53,6 @@ namespace Personal_info
             Console.WriteLine("Have a good day :)");
 
             Console.ReadKey();
-
         }
 
 
