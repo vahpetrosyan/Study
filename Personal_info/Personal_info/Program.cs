@@ -14,48 +14,17 @@ namespace Personal_info
             string surname;
             int age;
             double weight;
-            string sex;
+            string gender;
             int year;
-            
-
-            Console.WriteLine("Please type your name");
-            name = Console.ReadLine();
-            Console.Clear();
-
-            Console.WriteLine("Please type your surname");
-            surname = Console.ReadLine();
-            Console.Clear();
-
-            Console.WriteLine("What year were you born");
-            year = Convert.ToInt32(Console.ReadLine());
-            Console.Clear();
-
-            Console.WriteLine("Please type your weight in kg");
-            weight = Convert.ToDouble(Console.ReadLine());
-            Console.Clear();
-
-            Console.WriteLine("Are you male or female?");
-
-            sex = Console.ReadLine();
-
-            Console.Clear();
-
-            age = 2018 - year;
-
-            if(weight <= 95)
-            {
-                Console.WriteLine($"{name} {surname} you're {age} years old and also you're a thin {sex} ");
-            }
-            else
-            {
-                Console.WriteLine($"{name} {surname} you're {age} years old and also you're a thick {sex} ");
-            }
-            Console.WriteLine("Have a good day :)");
-
             Console.ReadKey();
+
         }
+        static string name()
+        {
+            Console.WriteLine("Enter your name");
+            string myname = Console.ReadLine();
+            return myname;
 
-
-        
-    }
+        }
+    } 
 }
