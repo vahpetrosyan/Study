@@ -62,7 +62,7 @@ namespace Calculator
                 
                 Console.ReadKey();
             }
-            else if (operation == 4 && firstVariable / secondVariable >= 0 && secondVariable >= 0)
+            else if (operation == 4 && secondVariable != 0  && firstVariable / secondVariable >= 0)
             {
                 long result = firstVariable / secondVariable;
                 Console.WriteLine($"Your result is {result}");
