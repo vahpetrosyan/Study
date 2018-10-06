@@ -39,7 +39,7 @@ namespace Geometric_Figures
             {
                 Console.Write("R = ");
                 double radius = Convert.ToDouble(Console.ReadLine());
-                int area = Math.PI * (radius * radius);
+                double area = Math.PI * (radius * radius);
 
 
             }
