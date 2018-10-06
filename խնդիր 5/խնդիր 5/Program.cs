@@ -10,6 +10,14 @@ namespace խնդիր_5
     {
         static void Main(string[] args)
         {
+            int A = 14;
+            int finalValue = 0;
+            for(int i = 0; i < A; i += 2)
+            {
+                finalValue += i;
+            }
+            Console.WriteLine(finalValue);
+            Console.ReadKey();
         }
     }
 }
