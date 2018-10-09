@@ -11,14 +11,15 @@ namespace While_12
         static void Main(string[] args)
         {
             int N = Convert.ToInt32(Console.ReadLine());
-            int i = 1;
             double result = 0;
-            while (i <= N)
+            int b = 1;
+            while (b <= 2*N-1)
             {
-                result += Math.Pow(-1, i - 1) * (1 + 0.1 * i);
-                i++;
+                result += b;
+                Console.WriteLine(result);
+                Console.WriteLine("------------------");
+                b += 2;
             }
-            Console.WriteLine(result);
             Console.ReadKey();
         }
     }
