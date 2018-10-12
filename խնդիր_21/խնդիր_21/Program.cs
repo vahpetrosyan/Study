@@ -8,28 +8,26 @@ namespace խնդիր_21
 {
     class Program
     {
-        static void Main(string[] args)
+        static void findDivisors()
         {
             int n = Convert.ToInt32(Console.ReadLine());
             int i = 1;
+            for (i = 1; i <= n; i++)
             {
+                int result = n % i;
 
-                void findDivisors()
+                if (result == 0)
                 {
-                    for (i = 1; i <= n; i++)
-                    {
-                        int result = n % i;
-
-                        if (result == 0)
-                        {
-                            Console.WriteLine(i);
-                        }
-
-                    }
-                      
+                    Console.WriteLine(i);
                 }
-                findDivisors();
-                Console.ReadKey();
 
             }
-}   }   }
+
+        }
+        static void Main(string[] args)
+        {
+            findDivisors();
+            Console.ReadKey();
+        }
+    }        
+}      
