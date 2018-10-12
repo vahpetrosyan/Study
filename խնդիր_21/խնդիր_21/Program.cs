@@ -11,18 +11,20 @@ namespace խնդիր_21
         static void Main(string[] args)
         {
             int n = Convert.ToInt32(Console.ReadLine());
+            int i = 1;
             {
 
                 void findDivisors()
                 {
-                    for (int i = 1; i <= n; i++)
+                    for (i = 1; i <= n; i++)
                     {
                         int result = n % i;
-                        
+
                         if (result == 0)
                         {
                             Console.WriteLine(i);
                         }
+
                     }
                       
                 }
