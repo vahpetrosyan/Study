@@ -13,7 +13,7 @@ namespace task_27
             int n = Convert.ToInt32(Console.ReadLine());
             int[] firstArray = new int[1];
             firstArray[0] = n;
-            for (int i = 0; i < n; i++)
+            for (int i = 0; i <= n; i++)
             {
                 int result = n % 10;
                 n /= 10;
